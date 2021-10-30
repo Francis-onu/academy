@@ -21,9 +21,9 @@ menuToggle.addEventListener('click', () => {
     
     const testimonials = [
         {   
-            name: 'Aisha',
+            name: 'Igoche',
             position: 'Accountant',
-            photo: 'https://images.unsplash.com/photo-1475823678248-624fc6f85785?ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTl8MTcyOTI1OHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
+            photo: './images/onu.jpg',
             text:
             " I have worked with literally hundreds of HTML/CSS developers and I have to say the top spot goes to this guy. This guy is an amazing developer. He stresses on good, clean code and pays heed to the details. I love developers who respect each and every aspect of a throughly thought out design and do their best to put it in code. He goes over and beyond and transforms ART into PIXELS - without a glitch, query time.",
         },
@@ -39,9 +39,9 @@ menuToggle.addEventListener('click', () => {
         
         },
     {
-        name: 'Vinicius Wiesehofer',
-        position: 'Marketing',
-        photo: 'https://images.unsplash.com/photo-1517677129300-07b130802f46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NHwxNzI5MjU4fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
+        name: 'Josephine',
+        position: 'Economist',
+        photo: './images/Josephine.jpg',
     
         text: 
         " I have worked with literally hundreds of HTML/CSS developers and I have to say the top spot goes to this guy.",
