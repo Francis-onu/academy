@@ -41,7 +41,7 @@ menuToggle.addEventListener('click', () => {
     {
         name: 'Josephine',
         position: 'Economist',
-        photo: './images/Josephine.jpg',
+        photo: './images/Josephine.png',
     
         text: 
         " I have worked with literally hundreds of HTML/CSS developers and I have to say the top spot goes to this guy.",
