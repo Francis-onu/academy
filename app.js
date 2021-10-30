@@ -21,7 +21,7 @@ menuToggle.addEventListener('click', () => {
     
     const testimonials = [
         {   
-            name: 'Igoche, Lagos',
+            name: 'Igoche Lagos',
             position: 'Accountant',
             photo: './images/onu.jpg',
             text:
@@ -29,7 +29,7 @@ menuToggle.addEventListener('click', () => {
         },
     
         {
-            name: 'Grace, Ibadan',
+            name: 'Grace Ibadan',
             position: 'Engineer',
             photo: 'https://media.istockphoto.com/photos/positivity-puts-you-in-a-position-of-power-picture-id1299077582?b=1&k=20&m=1299077582&s=170667a&w=0&h=Esjqlg_WCWmTc83Dv6PLhwPFwYN9uXoclBn0cUhtS5I=',
         
@@ -39,7 +39,7 @@ menuToggle.addEventListener('click', () => {
         
         },
     {
-        name: 'Josephine, Abuja',
+        name: 'Josephine Abuja',
         position: 'Economist',
         photo: './images/Josephine.png',
     
