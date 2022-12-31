@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./css/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./images/academy.png" alt="academy logo" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="about.html" class="nav-link"> about </a>
+          <a href="contact.html" class="nav-link"> contact </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+      <section class="about-page">
+        <article>
+          <h2 class="about">Training and Development</h2>
+          <p class="about">
+            Our software training and software development courses will give you the skills spanning the full Software Development
+            Life Cycle, such as requirements documentation, testing, and User Experience (UX) design. With a complete curriculum of
+            roles, project management, and architectural roles, you can learn to manage and deliver software projects on time and within budget 
+            upon successful completion of our training.
+          </p>
+          <a href="contact.html" class="btn"> contact </a>
+        </article>
+        <!-- needs fixes -->
+        <img
+          src="./images/lecture theatre.jpg"
+          alt="classroom"
+          class="img about-img"
+        />
+      </section>
+      <section class="featured-recipes">
+        <h5 class="featured-title">Take A look At Some of The Courses In The Academy!</h5>
+        <div class="recipes-list">
+          <!-- single recipe -->
+          <a href="index.html" class="course">
+            <img
+              src="./images/java-coffee-cup-logo.png"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Java</h5>
+            <p>Duration : 6 Months </p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="index.html" class="course">
+            <img
+              src="./images/javascript.png"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>JavaScript</h5>
+            <p>Duration : 6 Months </p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="index.html" class="course">
+            <img
+              src="./images/react-native.png"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>React-Native</h5>
+            <p>Duration : 6 Months </p>
+          </a>
+          <!-- end of single recipe -->
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">ProgrammingAcademy</span> Built by
+        <a href="https://linkedin.com/in/francis-onuh-404720127">Onu Francis</a>
+      </p>
+    </footer>
+    <script src="style.js"></script>
+  </body>
+</html>
